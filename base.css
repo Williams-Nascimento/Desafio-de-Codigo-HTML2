@@ -15,7 +15,7 @@ body {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
+    background-color: rgb(50, 80, 80);
 }
 .main {
     display: flex;
@@ -24,7 +24,7 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color: rgb(50, 80, 80);
     padding: 10px 20px 0px;
 }
 .header {
@@ -35,8 +35,10 @@ body {
        
 }
 .texto_sobreposto {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 30px;
     position: absolute;
-    top: 20%;
+    top: 0%;
     left: 50%;
     transform: translatex(-50%);
     text-align: center;
@@ -59,4 +61,17 @@ body {
 .footer {
     background-color: rgb(99, 56, 240);
     min-height: 150px;
+    display: flex;
+}
+.button {
+    background-color: rgb(56, 56, 233);
+    border: 2px solid #04AA6D;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px 32px;
+    color: white;
+    padding: 15px 32px;
+    cursor: pointer;
+    display: inline-block;
+    width: 150px;
 }
