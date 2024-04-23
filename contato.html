@@ -12,10 +12,10 @@
         <div class="menu">
             <!-- Aqui vai o seu menu -->
             <ul>
-                <button class="button"><a href="/indice.html" target="_self">Home</a></button><br>
-                <button class="button"><a href="/sobre.html" target="_self">Sobre</a></button><br>
-                <button class="button"><a href="/horarios.html" target="_self">Serviços</a></button><br>
-                <button class="button"><a href="/contato.html" target="_self">Contato</a></button>
+                <li><button class="button a"><a href="/indice.html" target="_self">Home</a></button></li><br>
+                <li><button class="button a"><a href="/sobre.html" target="_self">Sobre</a></button></li><br>
+                <li><button class="button a"><a href="/horarios.html" target="_self">Serviços</a></button></li><br>
+                <li><button class="button a"><a href="/contato.html" target="_self">Contato</a></button></li>
             </ul>
         </div>
 
@@ -24,19 +24,35 @@
                 <!-- Aqui vai o seu header -->
                 
                 <img src="/img/contato_2.jpg" alt="Desenhos de icones que significam contato como arroba, envelope de correspondência, um aparelho celular e uma telefone convencional" style="width: 100%; height: 150px;">
-
+                <div class="texto_sobreposto2">
+                    <h2><strong><i>Deixe seu Contato</i></strong></h2>
+                </div>
     
             </div>
             
     
             <div class="content">
-                Content
-                <!-- Aqui vai o seu conteúdo -->
+                <h2><strong><i>Formulário de Contato</i></strong></h2>
+                <form action=""></form>
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" id="cnome" name="cname"><br><br>
+                    <label for="fone">Telefone de Contato:</label>
+                    <input type="text" id="fone" name="fone"><br><br>
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email"><br><br>
+
+                    
+                    <button type="button" onclick="alert('Formulário enviado')">Enviar</button>
             </div>
     
             <div class="footer">
-                Footer
-                <!-- Aqui vai o seu rodapé -->
+                <div>
+                    <h3>
+                        <p><strong><i>Informações: (81) 2222-3333</i></strong></p>
+                        <p><strong><i>Central de agendamento: (81) 3333-2222</i></strong></p>
+                        
+                    </h3>
+
             </div>
         </div>
     </div>

@@ -1,6 +1,6 @@
 html, body {
     margin: 0;
-    height: 100%;
+    height: auto;
     padding: 0;
 
 }
@@ -11,11 +11,11 @@ body {
 }
 
 .wrapper {
-    min-height: 100%;
+   
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: rgb(50, 80, 80);
+   
 }
 .main {
     display: flex;
@@ -24,8 +24,9 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: rgb(50, 80, 80);
+    background-color: rgb(210, 221, 221);
     padding: 10px 20px 0px;
+    
 }
 .header {
     position: relative;
@@ -45,6 +46,16 @@ body {
     color: rgb(64, 70, 78);
 
 }
+.texto_sobreposto2{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 30px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translatex(-50%);
+    text-align: center;
+    color: rgb(25, 26, 27);
+}
 .img_1{
     max-width: 100%;
     height: auto
@@ -57,21 +68,73 @@ body {
     background-color: white;
     min-height: 400px;
     padding: 20px;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
 }
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color: rgb(55, 59, 59);
     min-height: 150px;
     display: flex;
-}
-.button {
-    background-color: rgb(56, 56, 233);
-    border: 2px solid #04AA6D;
-    border-radius: 5px;
     text-align: center;
-    padding: 15px 32px;
-    color: white;
-    padding: 15px 32px;
+    text-decoration:  rgb(25, 26, 27);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.button a {
+    background-color: rgba(85, 85, 126, 0.356);
+    border: solid #2e3834;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 10px ;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
     cursor: pointer;
     display: inline-block;
-    width: 150px;
+    width: 100px;
+    box-shadow: 0 8px 16px 0 rgba(100, 5, 5, 0.2), 0 6px 20px 0 rgba(192, 58, 58, 0.19);
+    color: black;
+    font-size: 16px;
+}
+ul {
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+    text-align: left;
+}
+.tabela_1, th, td {
+    
+    border: 3px solid black;
+    border-collapse: collapse;
+    background-color: #96a1d4;
+    text-align: center;
+    border-color: gray;
+    border-radius: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100px;
+    
+}
+table tbody tr:nth-child(even) td{
+    background-color: #f1f1f1 ;
+}
+table tbody tr:hover td{
+    background-color: #d7dde75b ;
+}
+table{
+    -webkit-box-shadow: 21px 19px 32px -3px rgba(115, 120, 183, 1);
+    -moz-box-shadow: 21px 19px 32px -3px rgba(115, 120, 183, 1);
+    box-shadow: 21px 19px 32px -3px rgba(115, 120, 183, 1);
+}
+
+label {
+    display: inline-block;
+    width: 150px; /* Ajuste conforme necessário */
+    text-align: right;
+    margin-right: 10px; /* Espaçamento entre o rótulo e o campo de entrada */
+}
+
+input[type="text"] {
+    width: 250px; /* Ajuste conforme necessário */
 }
